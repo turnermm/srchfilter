@@ -1,0 +1,7 @@
+base   srchfilter 
+author  Myron Turner
+email  turnermm02@shaw.ca
+date  2017-04-04
+name  srchfilter
+desc  hides namespaces from dokuwiki search
+#url  https://
