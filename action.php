@@ -25,14 +25,9 @@ class action_plugin_srchfilter extends DokuWiki_Action_Plugin
              $rarr = explode(",",$regex);
              for($i=0;  $i<count($rarr); $i++) { 
                  $rarr[$i] = ltrim($rarr[$i]," :");
-                 if(auth_quickaclcheck($rarr[$i]) < AUTH_READ){
-                     unset($rarr[$i]);
-                 }
              }
             $regex = implode('|', $rarr);
-         }
-        
-          msg($regex);
+         }   
      
        if(!$regex) return;    
       
