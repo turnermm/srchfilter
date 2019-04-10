@@ -1,6 +1,5 @@
 <?php
 /**
- * Action adding DW Edit button to page tools (useful with fckedit)
  *
  * @author    Myron Turner  <turnermm02@shaw.ca> 
  */
